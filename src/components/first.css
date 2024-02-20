@@ -31,7 +31,12 @@
 }
 .codepic{
     height: 60vh;
-}     
+} 
+.parent{
+    display: flex;
+      width: 95vw; 
+         justify-content: space-evenly; 
+}    
 @media only screen and (max-width: 700px) {
     .parent{
         display: flex;
