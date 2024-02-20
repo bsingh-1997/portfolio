@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Strike&display=swap');
 .secondbox{
     /* padding: 1rem; */
     display: flex;
@@ -45,9 +49,17 @@ li{
         font-size: 2em;
         width: 100%;
         margin-bottom: 5vh;
-        font-family: fantasy;
+        /* font-family: fantasy; */
         display: flex;
         /* align-items: center; */
         justify-content: left;
+        font-family: "Protest Strike", sans-serif;
+    }
+    .pgpg2{
+        font-family: "Montserrat", sans-serif;
+    }
+    li{
+        font-family: "Montserrat", sans-serif;
+
     }
 }

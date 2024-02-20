@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
 .forthbox{
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 75vh;
-    row-gap: 3vh;
+    row-gap: 2vh;
 }
 .proje{
     font-family: fantasy;
@@ -95,9 +97,11 @@
         opacity: 60%;
     }
     .proje {
-        font-family: fantasy;
+        /* font-family: fantasy; */
         color: white;
         font-size: 2em;
         width: 90%;
+        font-family: "Protest Strike", sans-serif;
+
     }
 }

@@ -73,10 +73,11 @@
             font-size: 2em;
             width: 100%;
             margin-bottom: 5vh;
-            font-family: fantasy;
+            /* font-family: fantasy; */
             display: flex;
             /* align-items: center; */
         justify-content: center;
+        font-family: "Protest Strike", sans-serif;     
     }
     #myForm {
         margin-left: auto;
@@ -91,13 +92,15 @@
     }
     .coform{
         margin-top: 1vh;
-        font-family: cursive;
+        /* font-family: cursive; */
+        font-family: "Montserrat", sans-serif;
     }
     .cdet {
         /* background-color: aqua; */
         width: 100%;
         font-size: larger;
-        font-family: cursive;
+        /* font-family: cursive; */
+        font-family: "Montserrat", sans-serif;
     }
     textarea {
         text-align: center;
