@@ -1,0 +1,70 @@
+.parent{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+}
+.firstbox{
+    /* padding: 1rem; */
+    display: flex;
+    flex-direction: column;
+    /* width: 95%; */
+    width: 50%;
+    padding-top: 7vh;
+}
+.headline{
+    font-size: 3.5em;
+    width: 100%;
+    margin-bottom: 5vh;
+    font-family: fantasy;
+}
+.pgpg{
+    width: 40%;
+    margin-bottom: 5vh;
+    font-family: cursive;
+}
+.abt{
+    font-size: larger;
+    color: purple;
+}
+.codepic{
+    height: 60vh;
+}     
+@media only screen and (max-width: 700px) {
+    .parent{
+        display: flex;
+        /* width: 95vw; */
+        /* justify-content: space-evenly; */
+        flex-direction: column;
+        /* background-color: aqua; */
+    }
+    .firstbox{
+        /* padding: 1rem; */
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        /* width: 50%; */
+        padding-top: 7vh;
+    }
+ 
+    .pgpg{
+        width: 90vw;
+        /* background-color: aqua; */
+        margin-bottom: 2vh;
+        font-family: cursive;
+    }
+    .headline{
+        font-size: 2em;
+        width: 100%;
+        margin-bottom: 2vh;
+        font-family: fantasy;
+        display: flex;
+        /* align-items: center; */
+        justify-content: left;
+    }
+    .codepic{
+        margin-right: auto;
+        margin-left: auto;
+        height: 45vh;
+        /* width: 81%; */
+    }
+}

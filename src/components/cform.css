@@ -1,0 +1,113 @@
+#myForm{
+    margin-left: auto;
+    display: grid;
+    /* width: 0%; */
+    width: 30vw;
+    margin-right: auto;
+    margin-top: 6vh;
+    /* background-color: aqua; */
+    margin-bottom: 5vh;
+    /* background-color: black; */
+}
+    input{
+        margin-bottom: 19px;
+        text-align: center;
+        border-radius: 10px;
+        height: 2.5rem;
+        
+    }
+    
+    textarea{
+        text-align: center;
+        border-radius: 18px;
+        margin-bottom: 40px;
+        height: 6rem;
+        justify-content: center;
+    }
+    .cpage{
+        display: flex;
+        justify-content: space-between;
+    }
+    .fvpage{
+        width: 80%; 
+    }
+    .headline22{
+        font-size: 3.5em;
+        width: 100%;
+        margin-bottom: 5vh;
+        font-family: fantasy;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;    
+    }
+    
+    .cdet{
+        /* background-color: aqua; */
+        width: 30vw;
+        font-size: larger;
+        font-family: cursive;
+        
+    }
+    .alert{
+        height: 30px;
+        background-color: rgb(178, 255, 178) ;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        border-radius: 10px;
+        color: black;
+        align-items: center;
+        margin-bottom: 1vh;
+    }
+    .coform{
+        font-family: cursive;
+
+    }
+    @media only screen and (max-width:700px){
+        .cpage {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        .headline22 {
+            font-size: 2em;
+            width: 100%;
+            margin-bottom: 5vh;
+            font-family: fantasy;
+            display: flex;
+            /* align-items: center; */
+        justify-content: center;
+    }
+    #myForm {
+        margin-left: auto;
+        display: grid;
+        /* width: 0%; */
+        width: 100%;
+        margin-right: auto;
+        margin-top: 2vh;
+        /* background-color: aqua; */
+        margin-bottom: 5vh;
+        /* background-color: black; */
+    }
+    .coform{
+        margin-top: 1vh;
+        font-family: cursive;
+    }
+    .cdet {
+        /* background-color: aqua; */
+        width: 100%;
+        font-size: larger;
+        font-family: cursive;
+    }
+    textarea {
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        height: 6rem;
+        justify-content: center;
+    }
+    .fvpage {
+        width: 80%;
+        height: 66vh;
+    }
+}
